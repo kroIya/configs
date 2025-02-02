@@ -1309,6 +1309,27 @@ local scenariodata = {
 	UnitDefs.mission_command_tower.reclaimable = true
 	]]
 
+	--[[
+	[ai2]
+	{
+		[options]
+		{
+			profile = hard_aggressive;
+			comm_merge = false;
+			cheating = false;
+			ally_base = true;
+			disabledunits = ;
+			game_config = true;
+		}
+		Host = 0;
+		IsFromDemo = 0;
+		Name = BARbstable(1);
+		ShortName = BARb;
+		Team = 3;
+		Version = stable;
+	}
+	]]
+
 	startscript		= [[[GAME]
 	{
 		[allyTeam0]
@@ -1328,21 +1349,11 @@ local scenariodata = {
 		
 		[ai2]
 		{
-			[options]
-			{
-				profile = hard_aggressive;
-				comm_merge = false;
-				cheating = false;
-				ally_base = true;
-				disabledunits = ;
-				game_config = true;
-			}
 			Host = 0;
 			IsFromDemo = 0;
-			Name = BARbstable(1);
-			ShortName = BARb;
+			Name = SimpleAI  (2);
+			ShortName = SimpleAI;
 			Team = 3;
-			Version = stable;
 		}
 		
 		[ai3]
