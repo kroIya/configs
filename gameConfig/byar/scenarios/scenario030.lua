@@ -23,7 +23,7 @@ local scenariodata = {
 Basic repair and data reclamation isn’t glamorous, but we need command units with security clearance for the decryption. Not to mention, you have to put in the legwork out here in the Endline Systems before you’re provided with full battlefield commands on the Line Worlds.
 ]],
 
-	mapfilename		= "EnboreldeScenario1", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
+	mapfilename		= "Altair Canyon", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
 	playerstartx	= "16%", -- X position of where player comm icon should be drawn, from top left of the map
 	playerstarty	= "26%", -- Y position of where player comm icon should be drawn, from top left of the map
 	partime 		= 1200, -- par time in seconds (time a mission is expected to take on average)
