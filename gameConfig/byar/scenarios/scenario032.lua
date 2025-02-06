@@ -102,6 +102,28 @@ local scenariodata = {
 			{name = 'armpw', x = 6668, y = 19, z = 1901, rot = 3688 , team = 2, neutral = false},
 			{name = 'armrad', x = 6795, y = 19, z = 2043, rot = 0 , team = 2, neutral = false},
 
+			--pre ai1 llts
+			{name = 'armllt', x = 3168, y = 22, z = 2736, rot = 16384 , team = 2, neutral = false},
+			{name = 'armllt', x = 3200, y = 12, z = 3232, rot = 16384 , team = 2, neutral = false},
+			{name = 'armllt', x = 3216, y = 22, z = 4064, rot = 16384 , team = 2, neutral = false},
+			{name = 'armllt', x = 3088, y = 37, z = 4432, rot = 16384 , team = 2, neutral = false},
+			{name = 'armllt', x = 3024, y = 69, z = 4864, rot = 16384 , team = 2, neutral = false},
+			{name = 'armdrag', x = 3024, y = 76, z = 4896, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 2992, y = 69, z = 4864, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3024, y = 65, z = 4832, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3088, y = 38, z = 4464, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3056, y = 37, z = 4432, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3088, y = 36, z = 4400, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3216, y = 23, z = 4096, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3184, y = 22, z = 4064, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3216, y = 21, z = 4032, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3200, y = 11, z = 3264, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3168, y = 11, z = 3232, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3200, y = 12, z = 3200, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3168, y = 22, z = 2768, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3136, y = 22, z = 2736, rot = 16384 , team = 2, neutral = true},
+			{name = 'armdrag', x = 3168, y = 22, z = 2704, rot = 16384 , team = 2, neutral = true},
+
 			--enemy bases
 			{name = 'armcom', x = 13335, y = 259, z = 3937, rot = -14598 , team = 2, neutral = false},
 			{name = 'armcom', x = 14706, y = 34, z = 1435, rot = 15033 , team = 3, neutral = false},
