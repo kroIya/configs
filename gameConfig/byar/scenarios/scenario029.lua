@@ -15,18 +15,23 @@ local scenariodata = {
 * A4 Sentinel Actuators
  
 2. Do not lose all your units.]],
-	briefing 		= [[Cadet,
-
-You have been elected for the Crimson Trial. Within the walled expanse of Titan's Maw, you and your AI assistant will join 15 others in the crucible of combat for the honor of claiming your commander chassis.  Only one of you shall emerge worthy under the Echelon Code, witnessed by those of us present.
-
-You are tasked with battling against your fellow cadets to collect the four pieces of the Commander Chassis. An equal force of Grunts per cadet, with reinforcements only through victorious combat. Power is not given, it is earned, and your actions shall dictate your worth. Enter the Maw and be judged, Cadet.]],
+	briefing 		= [[Seraphina] Cadet,
+ 
+You have been elected for the Crimson Trial. Within the walled expanse of Titan's Maw, you and your AI assistant will join 15 others in the crucible of combat for the honor of claiming your commander chassis. Only a single cadet shall emerge worthy under the Echelon Code, witnessed by those of us present. "314", introduce yourself.
+ 
+[Gideon] "Cadet. I am your designated AI assistant, GDN-314, codenamed Gideon. My function is intelligence and tactical support.
+ 
+[Seraphina] 
+The two of you are tasked with battling your fellow cadets to collect the four pieces of the Commander Chassis. An equal force of Grunts per cadet, with reinforcements only through victorious combat. Power is not given, it is earned, and your actions shall dictate your worth.
+ 
+Enter the Maw and be judged.]],
 
 	mapfilename		= "TitanDuel_V3", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
 	playerstartx	= "16%", -- X position of where player comm icon should be drawn, from top left of the map
 	playerstarty	= "26%", -- Y position of where player comm icon should be drawn, from top left of the map
 	partime 		= 1200, -- par time in seconds (time a mission is expected to take on average)
 	parresources	= 0, -- par resource amount (amount of metal one is expected to spend on mission)
-	difficulty		= 1, -- Percieved difficulty at 'normal' level: integer 1-10
+	difficulty		= 0.11, -- Percieved difficulty at 'normal' level: integer 1-10
     defaultdifficulty = "Normal", -- an entry of the difficulty table
     difficulties    = { -- Array for sortedness, Keys are text that appears in selector (as well as in scoring!), values are handicap levels
     -- handicap values range [-100 - +100], with 0 being regular resources

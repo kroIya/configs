@@ -14,13 +14,23 @@ local scenariodata = {
 * RS-B298
    
 2. Your commander must survive.]],
-	briefing 		= [[Commander, we’ve arrived at Enborelde, a remnant of the OT-3612 Terraforma Campaigns. Our technical stations are still monitoring the terraforming process as the planet develops, in addition to continued scientific research efforts. However, information reports stopped several weeks ago from a collection of stations. We need you to physically reboot some of these stations, restore any environmental damage they've suffered, and bring back their primary data drives for decryption.  We’ll start with the two research stations near the Southern Elessar Mountains before we head towards the Sea of Syphons. Should be a quick trip in a Skyhook.  
-   
-* RS-KP981: Located in the foothills of the the Elessar Mountains
-* RS-CH127: Within the Elessar Mountains
-* RS-B298: On an Island in the Sea of Syphos
-   
-Basic repair and data reclamation isn’t glamorous, but we need command units with security clearance for the decryption. Not to mention, you have to put in the legwork out here in the Endline Systems before you’re provided with full battlefield commands on the Line Worlds.
+	briefing 		= [[[Gideon] Steady, Commander. We've arrived at Enborelde. The effects of interplanetary transit are disorienting, but you'll adjust momentarily.
+ 
+[Blackout] Ah, you're awake. Congradulations on the Crimson Trial, Commander.  I am Air Command Captain 2nd Class, Marcus Tauros — callsign 'Blackout.' I’m on loan to the Bellum Order to help oversee and train Nebula System operations.  And this is my second in command:
+ 
+[Pipes] Ophelia Falkrik, Starpilot 1st Class, reporting Commander.  Gideon replayed your command on Artturisir for us, impressive work. I'm glad to escort you out here, sir.
+ 
+[Blackout] Commander, SP1C Falkrik and I are on assist detail while you're in the Nebula Systems. First beacon is from Keram's Horizon. GDN-314, if you would be so kind?
+ 
+[Gideon] Commander, Enborelde is a remnant of the Terraforma Campaigns, one of the first altered after the Shatterstorm.  Keram's Horizon maintains active monitoring and research stations for the terraforming process. Multiple of these stations have gone offline in the past week. Horizon requests a Commander with access permissions to reboot the stations and recover a primary data drive.
+ 
+[Blackout] We’ll start with the two research stations near the Southern Elessar Mountains, then head west to the Sea of Syphos. Should be a quick trip in a Skyhook"
+ 
+[Pipes] Horizon also asked us to investigate any anomalies at the stations, Commander.
+ 
+[Blackout] Repair and data reclamation isn't glamorous, but the Line Worlds aren't going anywhere sir, you'll easily secure a commission after you've cut your teeth out here.
+ 
+[Pipes] We're ready to get those stations online when you are, Commander!
 ]],
 
 	mapfilename		= "Altair Canyon", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
@@ -28,7 +38,7 @@ Basic repair and data reclamation isn’t glamorous, but we need command units w
 	playerstarty	= "26%", -- Y position of where player comm icon should be drawn, from top left of the map
 	partime 		= 1200, -- par time in seconds (time a mission is expected to take on average)
 	parresources	= 0, -- par resource amount (amount of metal one is expected to spend on mission)
-	difficulty		= 1, -- Percieved difficulty at 'normal' level: integer 1-10
+	difficulty		= 0.12, -- Percieved difficulty at 'normal' level: integer 1-10
     defaultdifficulty = "Normal", -- an entry of the difficulty table
     difficulties    = { -- Array for sortedness, Keys are text that appears in selector (as well as in scoring!), values are handicap levels
     -- handicap values range [-100 - +100], with 0 being regular resources
