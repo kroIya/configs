@@ -8,7 +8,27 @@ local scenariodata = {
 	imagepath		= "scenario032.png", -- placed next to lua file, should be 3:1 ratio banner style
 	imageflavor		= "imageflavor", -- This text will be drawn over image
     summary         = [[summary]],
-	briefing 		= [[briefing]],
+	briefing 		= [[[Blackout] Damn it. No data, no drive, just wreckage. and we're burning time we don’t have.
+ 
+[Pipes] The lack of data isn't as concerning as what we saw. Blackout, sir, those Armada units were fighting each other, fortifying random areas, and leaving metal rusting in the dirt. Why?
+ 
+[Gideon] Internal Cortex data vaults contain no matching precedent for this Armada internal conflict or other actions. Our command protocols saw no attempted breaches, nor did we detect multiple Armada Command Profiles. I have no explanation for this phenomena.
+ 
+[Blackout] I wanted to say it was almost Scav like, but we're far from the Line and even the edges of the Nebula Systems. Although Enborelde isn't rich, if the Armada forces have been here for so long, they should have massively expanded and produced full standing armies. Doesn't make sense to me either, Pipes.
+ 
+[Gideon] Optimal course of action would be to continue pursuit of research stations. Remaining stationary presents an increasing strategic liability.
+ 
+[Blackout] I know. Doesn't mean I have to like it.
+ 
+[Pipes] Well, in positive news the two surviving Finches confirm that KP981 — in the Folsom Planum—is still standing and has power.
+ 
+[Gideon] If operational, KP981 has the highest probability for crucial intelligence. I can also mirror the station’s systems to restore the Commander’s schematics, but it will require uninterrupted access, and the Commander’s chassis will be shut down during restoration.
+ 
+[Blackout] So we hold the line. Defend the station until you finish your work, then we pull out.
+ 
+[Pipes] While the commander was in the mountains we set up some forward positions and raiding teams for distractions. We’ll transport what we can to help defend.
+ 
+[Gideon] Acknowledged. Commander—prepare for engagement.  Protect your chassis and the station from Armada attacks during the restoration process. Initiate when ready.]],
 
 	mapfilename		= "Folsom Planum", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
 	playerstartx	= "16%", -- X position of where player comm icon should be drawn, from top left of the map
