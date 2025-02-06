@@ -12,19 +12,27 @@ local scenariodata = {
 * Establish a base within the foothills.
 * Recover RS-CH127's Data Drive
 * Your Commmander must survive.]],
-	briefing 		= [[Commander, the situation has escalated beyond our control. With communications jammed, support from the Primaris Systems is out of reach—no reinforcements are coming. We’ve split our remaining forces to divert ARM attention away from RS-CH127.
+	briefing 		= [[[Pipes] I don’t know how you made it out of the Canyon, Commander.  I’ve flown into the rough before, but that ambush should have been lethal.
  
-Our Skyhook has delivered us to the foothills of the Elessar Mountains, but it cannot risk approaching the research station directly. I’ve brought some construction systems online, but you must establish a base and push up the mountain to reach RS-CH127.
+[Blackout] Luckily the actual ambush was poorly executed, their forces felt almost distracted. More importantly, we've had no reports of Armada incursions in this sector, and I can't establish contact with the Primaris Systems.
  
-No data explains why the ARM are here. Enborelde, seeded with a Terra-like biome, holds only limited research stations, minimal resources, no infrastructure, and negligible strategic value. Their presence suggests they know something we do not. Determine what that is, Commander.
+[Gideon] The commander's sensors can confirm a massive jamming field enveloping this region, contact with nearby Cortex forces is impossible, let alone Lex Primus.
  
-Your objectives:
+[Pipes] So, we’re on our own. No reinforcements. No fallback. Just us.
  
-* Establish a Base: Create a forward operating position and carefully balance Metal, Energy, and Build Power to maintain a stable economy.
+[Blackout] Yes, and our only lead is the research stations. We need to find them and have GDN-314 recover what he can. CH127 is closest, nestled atop the Elessar Mountains.
  
-* Recover RS-CH127’s Data Drive: Ascend to the station’s coordinates, restore its functions, and secure the primary data unit.
+[Pipes] So we drop the Commander at the base of the mountains, and then run interference?
  
-* Commander Survival: Your presence is vital. Maintain your integrity and ensure you remain operational at all costs.]],
+[Blackout] Sounds like a plan. The best thing we can do is distract the pursuers while he climbs.
+ 
+[Gideon] There is an additional complication. The crash caused severe corruption to the Commander's construction schematics. I can only restore a limited subset of blueprints.
+ 
+[Blackout] From what I've seen in the Trial and the Canyon, that shouldn't slow down the Commander. The Armada forces will get a firsthand lesson on Cortex retribution.
+ 
+[Gideon] My data archives show limited resources and a winding path to ascend. You'll need to secure a base before advancing, Commander.
+ 
+[Pipes] If you can walk away from that ambush, you can handle some scraplings on a hill, sir. We’re ready to drop you off whenever you’re set, Commander. Say the word.]],
 
 	mapfilename		= "Elessar Mountains", -- the name of the map to be displayed here, and which to play on, no .smf ending needed
 	playerstartx	= "16%", -- X position of where player comm icon should be drawn, from top left of the map
